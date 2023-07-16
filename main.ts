@@ -1,6 +1,7 @@
 import { createBot, Intents, startBot } from "./deps.ts"
 import { Secret } from "./secret.ts"
 
+/*
 const bot = createBot({
     token: Secret.DISCORD_TOKEN,
     intents: Intents.Guilds | Intents.GuildMessages | Intents.MessageContent,
@@ -20,3 +21,4 @@ bot.events.messageCreate = (b, message) => {
 }
 
 await startBot(bot)
+*/
